@@ -109,6 +109,3 @@ initials = [ [ initial | initial <- name, initial `elem` ['A'..'Z'] ] | name <- 
 ```
 Please, note that the function *elem* (called **infix function** when it's written, with backticks, between parameters) is used to tell if an item exists in a list 
 and the used list *['A'..'Z']* contains all the capital letters.
-
-
-
