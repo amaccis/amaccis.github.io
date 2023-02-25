@@ -1,0 +1,12 @@
+baseURL: https://amaccis.github.io
+title: amaccis
+theme: mini
+
+social:
+  github: https://github.com/amaccis
+  twitter: https://twitter.com/andreamaccis
+  linkedin: https://www.linkedin.com/in/amaccis/
+
+params:
+  author: Andrea Maccis
+  bio: Yet another wannabe software development blog.
