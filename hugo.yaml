@@ -13,3 +13,4 @@ params:
   author: Andrea Maccis
   bio: Yet another wannabe software development blog.
   enableGoogleAnalytics: true
+  copyright: '© Copyright 2023 - Andrea Maccis'
