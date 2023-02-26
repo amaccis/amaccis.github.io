@@ -66,7 +66,7 @@ that produces exactly the result you are expecting
 ```haskell
 [2,4,6,8,10,12,14,16,18,20]
 ```
-The syntax above, looks familiar? I mean, more or less it's the copy the set-builder notation, isn't it?
+The syntax above, looks familiar? I mean, more or less it's the copy of the set-builder notation, isn't it?
 Before the vertical pipe (|) you put the output of your list comprehension, and after you put the conditions, also known as predicates.
 In short, you draw from the list *[1..10]* to get all your *x* items you need to multiply by 2 to fill in your list.
 
