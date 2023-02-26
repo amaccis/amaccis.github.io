@@ -2,7 +2,7 @@ baseURL: https://amaccis.github.io
 title: amaccis.blog
 theme: mini
 
-googleAnalytics: G-4S09KRTL53
+googleAnalytics: "G-4S09KRTL53"
 
 social:
   github: https://github.com/amaccis
@@ -13,4 +13,4 @@ params:
   author: Andrea Maccis
   bio: Yet another wannabe software development blog.
   enableGoogleAnalytics: true
-  copyright: '© Copyright 2023 - Andrea Maccis'
+  copyright: © Copyright 2023 - Andrea Maccis
