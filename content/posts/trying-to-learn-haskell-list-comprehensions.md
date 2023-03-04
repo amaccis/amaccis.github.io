@@ -58,7 +58,7 @@ s = [2*x for x in range(1,10)]
 ```
 where, as you can see, syntactically, you practically embed a loop into a list.
 
-That is good but, in my opinion Haskell does even a better job in terms of syntax. Take a look at this
+That is good but, in my opinion Haskell does even a better job in terms of syntax. Take a look at that
 ```haskell
 s = [2*x | x <- [1..10]]
 ```
@@ -88,7 +88,7 @@ adjectives = ["Warty", "Hoary", "Breezy", "Dapper", "Edgy"]
 animals = ["Warthog", "Hedgehog", "Badger", "Drake", "Eft"]
 releases = [adjective ++ " " ++ animal | adjective <- adjectives, animal <- animals]
 ```
-to get something funny like this
+to get something funny like that
 ```haskell
 ["Warty Warthog","Warty Hedgehog","Warty Badger","Warty Drake","Warty Eft","Hoary Warthog","Hoary Hedgehog","Hoary Badger","Hoary Drake","Hoary Eft","Breezy Warthog",
 "Breezy Hedgehog","Breezy Badger","Breezy Drake","Breezy Eft","Dapper Warthog","Dapper Hedgehog","Dapper Badger","Dapper Drake","Dapper Eft","Edgy Warthog","Edgy Hedgehog",
@@ -98,7 +98,7 @@ to get something funny like this
 The interesting (and powerful) thing is that you can also create nested list comprehensions if you have particular needs, mostly if you are handling lists that contain lists.
 Imagine you have a list of names (first and last names) and you only want to extract the initials of these names to create another list, a list of initials precisely. 
 
-Well, in Haskell, strings are lists too, they are lists of characters. That's why, in order to get something like this
+Well, in Haskell, strings are lists too, they are lists of characters. That's why, in order to get something like that
 ```haskell
 ["AD","FP","ZB"]
 ```
