@@ -36,7 +36,7 @@ Fib(n) = Fib(n - 1) + Fib(n - 2) for n > 1
 ```
 
 Let's focus on writing a function that takes as input a number _n_ and returns the value of _Fib(n)_. Just to keep the things simple, we can take for granted that the input 
-will be always a number greater than or equal to zero, freeing us by input validation.
+will be always a number greater than or equal to zero, freeing us from input validation.
 
 In our ardour of avoiding recursion, we, bad programmers, are perfectly able to write something like this
 ```php
