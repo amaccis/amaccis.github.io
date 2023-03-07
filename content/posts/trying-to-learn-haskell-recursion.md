@@ -1,5 +1,5 @@
 ---
-title: "Trying to Learn Haskell - Recursion"
+title: "Trying to learn Haskell - Recursion"
 date: 2023-03-04
 draft: false
 tags: ["English", "Haskell", "PHP"]
