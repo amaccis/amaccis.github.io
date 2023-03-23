@@ -89,7 +89,7 @@ So, to recap what we know:
 - TAI second = 2^62 - _s_ seconds before the beginning of 1970 TAI, if 0 ≤ _s_ < 2^62;
 - TAI second = _s_ - 2^62 seconds after the beginning of 1970 TAI, if 2^62 ≤ _s_ < 2^63.
 
-in order to compute TAI seconds, we could write something like that
+in order to compute TAI seconds, we could write something like this
 ```php
 private const TAI64_LABEL_MINIMUM_VALUE = 0;
 private const TAI_SECOND_EPOCH = 2**62;
@@ -116,7 +116,7 @@ private static function externalTai64FormatToTaiSecond(string $tai64Label): stri
 
 But, let's focus on the edge cases.
 
-We know that PHP's int type is signed, but [hexdec() and dechex() (its opposite) deal both with unsigned integers](https://www.php.net/manual/en/function.dechex.php), so 
+We know that PHP's int type is signed, but [`hexdec()` and `dechex()` (its opposite) deal both with unsigned integers](https://www.php.net/manual/en/function.dechex.php), so 
 negative integers will be treated as though they were unsigned, meaning that we can not expect a result below zero by `intval(hexdec($tai64Label))`.
 
 In addition, we know that the maximum value for an integer in a 64-bit architecture is 2^63 - 1, it is no coincidence that is the exact value of `PHP_INT_MAX`. 
